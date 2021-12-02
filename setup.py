@@ -1,8 +1,6 @@
 from distutils.core import setup
-from os import read
 
-readme = open('README', 'r')
-README = readme.read()
+
 setup(
   name = 'aviral',        
   packages = ['aviral_api'],   
@@ -10,7 +8,9 @@ setup(
   license='MIT',        
   description = 'Api wrapper for IIIT Allahabad aviral portal',   
   long_description_content_type = "text/markdown",
-  long_description =README,   
+  long_description ="Use aviral in your python application with ease, check marks, get details or make a sign in with aviral option in your application. \
+This bypasses the static content calls so response is much faster then aviral website. Get your marks in less then 1 second even during when the main site is running slow. \
+  for full api documentation https://shivamhw.github.io/aviral",   
   author = 'Shivam Mishra',                   
   author_email = 'shivamhw0@gmail.com',      
   url = 'https://github.com/shivamhw/aviral',   
