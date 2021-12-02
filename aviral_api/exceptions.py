@@ -10,3 +10,9 @@ class AviralDownError(BaseException):
 
 class InvalidResponseError(BaseException):
     pass
+
+class InvalidSessionError(BaseException):
+    pass
+
+class UserNotLoggedInError(BaseException):
+    pass

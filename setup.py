@@ -6,7 +6,7 @@ README = readme.read()
 setup(
   name = 'aviral',        
   packages = ['aviral_api'],   
-  version = '0.1.2',      
+  version = '1.0',      
   license='MIT',        
   description = 'Api wrapper for IIIT Allahabad aviral portal',   
   long_description_content_type = "text/markdown",
@@ -14,7 +14,7 @@ setup(
   author = 'Shivam Mishra',                   
   author_email = 'shivamhw0@gmail.com',      
   url = 'https://github.com/shivamhw/aviral',   
-  keywords = ['IIITA', 'Aviral', 'IIIT-A'],   
+  keywords = ['IIITA', 'Aviral', 'IIIT-A','indian institute of information technology allahabad'],   
   install_requires=[            
           'requests'
       ],
