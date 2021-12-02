@@ -15,7 +15,7 @@ class AviralAPI(api_caller):
         response = self._get_call(urls.aviral_marks_url, {"Authorization" : token, "session" : session})
         return response
 
-    def get_semesterwise_marks(self, token: str) -> list[dict]:
+    def get_semesterwise_marks(self, token: str) -> dict:
         response = self._get_call(urls.aviral_semester_result_url, {"Authorization" : token})
         return response
 
